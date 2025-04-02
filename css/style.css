@@ -605,6 +605,9 @@
   .top-3 {
     top: calc(var(--spacing) * 3);
   }
+  .top-100 {
+    top: calc(var(--spacing) * 100);
+  }
   .top-16 {
     top: calc(var(--spacing) * 16);
   }
@@ -625,9 +628,6 @@
   }
   .top-50 {
     top: calc(var(--spacing) * 50);
-  }
-  .top-100 {
-    top: calc(var(--spacing) * 100);
   }
   .right-0 {
     right: calc(var(--spacing) * 0);
@@ -1079,9 +1079,6 @@
   .h-\[4em\] {
     height: 4em;
   }
-  .h-\[50px\] {
-    height: 50px;
-  }
   .h-\[60px\] {
     height: 60px;
   }
@@ -1199,14 +1196,8 @@
   .w-1500 {
     width: calc(var(--spacing) * 1500);
   }
-  .w-\[0em\] {
-    width: 0em;
-  }
   .w-\[10em\] {
     width: 10em;
-  }
-  .w-\[10px\] {
-    width: 10px;
   }
   .w-\[12em\] {
     width: 12em;
@@ -1216,9 +1207,6 @@
   }
   .w-\[18em\] {
     width: 18em;
-  }
-  .w-\[20em\] {
-    width: 20em;
   }
   .w-\[30\%\] {
     width: 30%;
@@ -1232,32 +1220,17 @@
   .w-\[33px\] {
     width: 33px;
   }
-  .w-\[50em\] {
-    width: 50em;
-  }
   .w-\[70\%\] {
     width: 70%;
   }
   .w-\[80\%\] {
     width: 80%;
   }
-  .w-\[800px\] {
-    width: 800px;
-  }
-  .w-\[80\] {
-    width: 80;
-  }
-  .w-\[80px\] {
-    width: 80px;
-  }
   .w-\[90\%\] {
     width: 90%;
   }
-  .w-\[150\] {
-    width: 150;
-  }
-  .w-\[150px\] {
-    width: 150px;
+  .w-\[800px\] {
+    width: 800px;
   }
   .w-\[full\] {
     width: full;
@@ -2378,9 +2351,6 @@
   .px-\[30px\] {
     padding-inline: 30px;
   }
-  .px-\[50px\] {
-    padding-inline: 50px;
-  }
   .px-\[80px\] {
     padding-inline: 80px;
   }
@@ -3236,29 +3206,9 @@
       width: calc(var(--spacing) * 52);
     }
   }
-  .sm\:w-60 {
-    @media (width >= 40rem) {
-      width: calc(var(--spacing) * 60);
-    }
-  }
-  .sm\:w-150 {
-    @media (width >= 40rem) {
-      width: calc(var(--spacing) * 150);
-    }
-  }
   .sm\:w-\[45\%\] {
     @media (width >= 40rem) {
       width: 45%;
-    }
-  }
-  .sm\:w-\[52\] {
-    @media (width >= 40rem) {
-      width: 52;
-    }
-  }
-  .sm\:w-\[52px\] {
-    @media (width >= 40rem) {
-      width: 52px;
     }
   }
   .sm\:w-\[80\%\] {
@@ -3361,11 +3311,6 @@
   .md\:flex-col {
     @media (width >= 48rem) {
       flex-direction: column;
-    }
-  }
-  .md\:justify-start {
-    @media (width >= 48rem) {
-      justify-content: flex-start;
     }
   }
   .md\:p-2 {
@@ -3517,11 +3462,6 @@
   .lg\:px-20 {
     @media (width >= 64rem) {
       padding-inline: calc(var(--spacing) * 20);
-    }
-  }
-  .lg\:px-24 {
-    @media (width >= 64rem) {
-      padding-inline: calc(var(--spacing) * 24);
     }
   }
   .lg\:text-4xl {
