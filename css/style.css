@@ -1088,9 +1088,6 @@
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
-  .w-5 {
-    width: calc(var(--spacing) * 5);
-  }
   .w-7 {
     width: calc(var(--spacing) * 7);
   }
@@ -3140,6 +3137,11 @@
   .lg\:w-3\/4 {
     @media (width >= 64rem) {
       width: calc(3/4 * 100%);
+    }
+  }
+  .lg\:w-\[20\%\] {
+    @media (width >= 64rem) {
+      width: 20%;
     }
   }
   .lg\:w-\[30\%\] {
